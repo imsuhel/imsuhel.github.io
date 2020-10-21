@@ -1,4 +1,13 @@
 
+
+window.history.pushState({page: 1}, "", "");
+window.onpopstate = function(event) {
+    if(event){
+        window.location.href = './index.html';
+        // Code to handle back button or prevent from navigation
+    }
+}
+
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("activedefault").click();
 

@@ -29,7 +29,7 @@
 
   .skill{ padding: 30px 15px; }
 
-  .skill-card { margin: 15px 0; }
+  .skill-card { margin: 25px 0; }
 
   .headings p{ margin: 0; }
 
@@ -72,6 +72,16 @@
     padding: 10px 0;
     margin: 3px 0;
   }
+  .skill-card .skill-tools span{
+    padding: 5px 8px;
+    margin: 0 3px 0 0;
+  }
+  .contact-card{
+    position: relative;
+    right: 0;
+    width: 100%;
+    margin-top: -40px
+  }
 }
 
 /* tablet potrait up */
@@ -84,6 +94,13 @@
 @media (max-width: 768px) {
   .project-details{
     width: 100%;
+  }
+  .skill-card .skill-details {
+      position: relative;
+      margin-left: 18px;
+  }
+  .skill-card .skill-tools span{
+    margin: 0px 3px 0 0;
   }
 }
 
