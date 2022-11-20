@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1",
+    "name": "status hub",
+    "thumbnail": "status_hub.jpg",
+    "tech": ["HTML", "CSS", "JAVASCRIPT"],
+    "link": "https://imsuhel.github.io/status_hub/"
+  },
+  {
+    "id": "2",
+    "name": "A. P. NARMADA",
+    "thumbnail": "ap_narmada.jpg",
+    "tech": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"],
+    "link": "http://apnschool.in/"
+  },
+  {
+    "id": "3",
+    "name": "mamboflix tv",
+    "thumbnail": "ap_narmada.jpg",
+    "tech": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"],
+    "link": "https://mamboflix.tv/bp/public/in"
+  },
+  {
+    "id": "4",
+    "name": "gocabs online",
+    "thumbnail": "ap_narmada.jpg",
+    "tech": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"],
+    "link": "https://gocabonline.com/"
+  },
+  {
+    "id": "5",
+    "name": "Embassy of india manila",
+    "thumbnail": "ap_narmada.jpg",
+    "tech": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"],
+    "link": "https://www.eoimanila.gov.in/"
+  },
+  {
+    "id": "6",
+    "name": "Institute of Home Economics",
+    "thumbnail": "ap_narmada.jpg",
+    "tech": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"],
+    "link": "https://ihe.du.ac.in/"
+  },
+  {
+    "id": "7",
+    "name": "Ntella",
+    "thumbnail": "ap_narmada.jpg",
+    "tech": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"],
+    "link": "https://ntella.com/"
+  },
+  {
+    "id": "8",
+    "name": "IIIT UNA",
+    "thumbnail": "ap_narmada.jpg",
+    "tech": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"],
+    "link": "http://iiitu.ac.in/"
+  },
+  {
+    "id": "9",
+    "name": "JD Dreams",
+    "thumbnail": "ap_narmada.jpg",
+    "tech": ["React Native"],
+    "link": "https://play.google.com/store/apps/details?id=com.jddreams"
+  },
+  {
+    "id": "10",
+    "name": "Wellness on demand (user)",
+    "thumbnail": "ap_narmada.jpg",
+    "tech": ["React Native", "javascript"],
+    "link": "https://play.google.com/store/apps/details?id=com.jddreams"
+  },
+  {
+    "id": "11",
+    "name": "Wellness on demand (provider)",
+    "thumbnail": "ap_narmada.jpg",
+    "tech": ["React Native", "javascript"],
+    "link": "https://play.google.com/store/apps/details?id=com.jddreams"
+  },
+  {
+    "id": "12",
+    "name": "CLASS EYE",
+    "thumbnail": "class_eye.jpg",
+    "tech": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"],
+    "link": "https://imsuhel.github.io/class_eye/"
+  },
+  {
+    "id": "13",
+    "name": "DOCTOR EYE",
+    "thumbnail": "doctor_eye.jpg",
+    "tech": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"],
+    "link": "https://imsuhel.github.io/doctor_eye/"
+  }
+]

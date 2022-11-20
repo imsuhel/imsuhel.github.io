@@ -1,171 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Mohd Suhel : A Front End Developer & UI/UX Designer</title>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/mdb.min.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <!-- Template Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link type="text/css" rel="stylesheet" href="css/media.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mohd Suhel : A Front End Developer & UI/UX Designer</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/mdb.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Template Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link type="text/css" rel="stylesheet" href="css/media.css" />
+  </head>
 
-<body id="body">
-
-  <header id="nav-bar" class="navigation">
-    <div class="nav-icon">
-      <span class="bars"></span>
-    </div>
-    <ul class="nav-menu">
-      <li class="nav-item first-item">
-        <a onclick="openPage(event, 'home')" id="activedefault" class="nav-link active">
-          <i class="fa fa-home"></i> <span>home</span></a>
-      </li>
-      <li class="nav-item">
-        <a onclick="openPage(event, 'about')" class="nav-link">
-          <i class="fa fa-user"></i> <span>about</span></a>
-      </li>
-      <li class="nav-item">
-        <a onclick="openPage(event, 'portfolio')" class="nav-link">
-          <i class="fa fa-suitcase"></i> <span>portfolio</span></a>
-      </li>
-      <li class="nav-item last-item">
-        <a onclick="openPage(event, 'contact')" class="nav-link">
-          <i class="fa fa-comments"></i> <span>contact</span></a>
-      </li>
-      <!-- <li class="nav-item last-item">
+  <body id="body">
+    <header id="nav-bar" class="navigation">
+      <div class="nav-icon">
+        <span class="bars"></span>
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-item first-item">
+          <a
+            onclick="openPage(event, 'home')"
+            id="activedefault"
+            class="nav-link active"
+          >
+            <i class="fa fa-home"></i> <span>home</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a onclick="openPage(event, 'about')" class="nav-link">
+            <i class="fa fa-user"></i> <span>about</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a onclick="openPage(event, 'portfolio')" class="nav-link">
+            <i class="fa fa-suitcase"></i> <span>portfolio</span></a
+          >
+        </li>
+        <li class="nav-item last-item">
+          <a onclick="openPage(event, 'contact')" class="nav-link">
+            <i class="fa fa-comments"></i> <span>contact</span></a
+          >
+        </li>
+        <!-- <li class="nav-item last-item">
         <a onclick="openPage(event, 'blog')" class="nav-link">
           <i class="fa fa-rss"></i> <span>blog</span></a>
       </li> -->
-    </ul>
-  </header>
+      </ul>
+    </header>
 
-  <section id="home" class="page home">
-    <div class="container">
-      <div class="col-md-6 ml-auto home-content">
-        <div class="contents">
-          <div class="captions">
-            <h5>hi ther !</h5>
-            <h4>i'm <span id="write">suhel</span></h4>
-            <p>I'm a UI/UX Designer and Developer based in Allahabad, India. I strive to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
-            <div class="home-btn-group">
-              <a onclick="openPage(event, 'about')" class="btn btn-home-color">
-                <span><i class="fa fa-user"></i> more about me</span>
-              </a>
-              <a onclick="openPage(event, 'portfolio')" class="btn btn-home-border">
-                <span><i class="fa fa-suitcase"></i> portfolio</span>
-              </a>
+    <section id="home" class="page home">
+      <div class="container">
+        <div class="col-md-6 ml-auto home-content">
+          <div class="contents">
+            <div class="captions">
+              <h5>hi ther !</h5>
+              <h4>i'm <span id="write">suhel</span></h4>
+              <p>
+                I'm a React Native Developer and UI/UX Designer based in
+                Allahabad, India. I strive to build immersive and beautiful
+                mobile applications through carefully crafted code and
+                user-centric design.
+              </p>
+              <div class="home-btn-group">
+                <a
+                  onclick="openPage(event, 'about')"
+                  class="btn btn-home-color"
+                >
+                  <span><i class="fa fa-user"></i> more about me</span>
+                </a>
+                <a
+                  onclick="openPage(event, 'portfolio')"
+                  class="btn btn-home-border"
+                >
+                  <span><i class="fa fa-suitcase"></i> portfolio</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- container close here -->
-  </section>
-  <!-- home page close here -->
+      <!-- container close here -->
+    </section>
+    <!-- home page close here -->
 
-  <section id="about" class="page about">
-    <div class="container about-row">
-      <div class="headings">
-        <h4 class="main-heading">about <span>me</span></h4>
-        <p>i design and code beautiful things, and i love what i do.</p>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="about-img">
-            <img src="img/about.jpg" alt="suhel" class="img-fluid">
+    <section id="about" class="page about">
+      <div class="container about-row">
+        <div class="headings">
+          <h4 class="main-heading">about <span>me</span></h4>
+          <p>i design and code beautiful things, and i love what i do.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-img">
+              <img src="img/about.jpg" alt="suhel" class="img-fluid" />
+            </div>
+          </div>
+          <!-- col close here -->
+          <div class="col-md-6">
+            <div class="personal-details">
+              <ul>
+                <li><span>first name</span> mohd</li>
+                <li><span>last name</span> suhel</li>
+                <li><span>birthdate</span> 22 may 1999</li>
+                <li><span>nationality</span> indian</li>
+                <li><span>address</span> handia, prayagraj</li>
+              </ul>
+
+              <ul>
+                <li><span>Started at</span> june 2019</li>
+                <li><span>langages</span> hindi, english</li>
+                <li>
+                  <span>phone</span>
+                  <a href="tel:+91 7237 824 738">+91 7237 824 738</a>
+                </li>
+                <li>
+                  <span>email</span>
+                  <a href="mailto:itssuchlecontact@gmail.com"
+                    >itssuchlecontact@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <a
+              href="img/suhel_front-end-developer.pdf"
+              download
+              class="btn btn-home-color"
+            >
+              <span><i class="fa fa-download"></i> download resume</span>
+            </a>
           </div>
         </div>
         <!-- col close here -->
-        <div class="col-md-6">
-          <div class="personal-details">
-            <ul>
-              <li><span>first name</span> mohd</li>
-              <li><span>last name</span> suhel</li>
-              <li><span>birthdate</span> 22 may 1999</li>
-              <li><span>nationality</span> indian</li>
-              <li><span>experience</span> 11 monts</li>
-              <li><span>address</span> handia, prayagraj</li>
-            </ul>
-
-            <ul>
-              <li><span>freelance</span> available</li>
-              <li><span>langages</span> hindi, english</li>
-              <li><span>phone</span> +91 7237 824 738</li>
-              <li><span>email</span> mohdsuhel920@gamil.com</li>
-              <li><span>skype</span> mohd.suhel</li>
-              <li><span>dribbble</span> mohd.suhel</li>
-            </ul>
-          </div>
-          <a href="img/suhel_front-end-developer.pdf" download class="btn btn-home-color">
-            <span><i class="fa fa-download"></i> download resume</span>
-          </a>
-        </div>
       </div>
-      <!-- col close here -->
-    </div>
 
-    <!-- skill area -->
-    <div class="container skill">
-      <div class="headings">
-        <h4 class="main-heading">my <span>skills</span></h4>
-        <p>I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.</p>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="skill-card">
-            <div class="skill-icon">
-              <img src="img/code.png" class="img-fluid" alt="web development">
-            </div>
-            <!-- skill-icon close ehre -->
-            <div class="skill-details">
-              <h3>web development</h3>
-              <div class="skill-tools">
-                <span>html</span>
-                <span>css</span>
-                <span>javascript</span>
+      <!-- skill area -->
+      <div class="container skill">
+        <div class="headings">
+          <h4 class="main-heading">my <span>skills</span></h4>
+          <p>I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="img/code.png"
+                  class="img-fluid"
+                  alt="web development"
+                />
+              </div>
+              <!-- skill-icon close ehre -->
+              <div class="skill-details">
+                <h3>web development</h3>
+                <div class="skill-tools">
+                  <span>html</span>
+                  <span>css</span>
+                  <span>javascript</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- col-md-6 close here -->
-        <div class="col-md-6">
-          <div class="skill-card">
-            <div class="skill-icon">
-              <img src="img/framework.png" class="img-fluid" alt="front end framework">
-            </div>
-            <!-- skill-icon close ehre -->
-            <div class="skill-details">
-              <h3>front end framework</h3>
-              <div class="skill-tools">
-                <span>bootstrap</span>
-                <span>react</span>
+          <!-- col-md-6 close here -->
+          <div class="col-md-6">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="img/framework.png"
+                  class="img-fluid"
+                  alt="front end framework"
+                />
+              </div>
+              <!-- skill-icon close ehre -->
+              <div class="skill-details">
+                <h3>front end framework</h3>
+                <div class="skill-tools">
+                  <span>bootstrap</span>
+                  <span>reactjs</span>
+                  <span>react native</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- col-md-6 close here -->
-        <div class="col-md-6">
-          <div class="skill-card">
-            <div class="skill-icon">
-              <img src="img/wireframe.png" class="img-fluid" alt="wireframe">
-            </div>
-            <!-- skill-icon close ehre -->
-            <div class="skill-details">
-              <h3>wireframe & prototype</h3>
-              <div class="skill-tools">
-                <span>photoshp</span>
-                <span>framer</span>
+          <!-- col-md-6 close here -->
+          <div class="col-md-6">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="img/wireframe.png"
+                  class="img-fluid"
+                  alt="wireframe"
+                />
+              </div>
+              <!-- skill-icon close ehre -->
+              <div class="skill-details">
+                <h3>wireframe & prototype</h3>
+                <div class="skill-tools">
+                  <span>photoshp</span>
+                  <span>framer</span>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <!-- col-md-6 close here
+          <!-- col-md-6 close here
         <div class="col-md-6">
           <div class="skill-card">
             <div class="skill-icon"> </div>
@@ -180,389 +229,89 @@
           </div>
         </div>
          -->
+        </div>
       </div>
-    </div>
-    <!-- skill area close reh -->
-  </section>
-  <!-- about page close here -->
+      <!-- skill area close reh -->
+    </section>
+    <!-- about page close here -->
 
-  <section id="portfolio" class="page portfolio">
-    <div class="container">
-      <div class="headings">
-        <h4 class="main-heading">my <span>portfolio</span></h4>
-        <p>a few recent design and coding projects.</p>
+    <section id="portfolio" class="page portfolio">
+      <div class="container">
+        <div class="headings">
+          <h4 class="main-heading">my <span>portfolio</span></h4>
+          <p>a few recent design and coding projects.</p>
+        </div>
+        <div class="row" id="projectsWrapper">
+          <!-- projects card here in col md 4 size via javascript -->
+        </div>
       </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div onclick="openProject(event, 'project1')" class="portfolio-card projects">
-            <div class="portfolio-img">
-              <img src="img/status_hub.jpg" class="img-fluid" alt="suhel portfolio">
-            </div>
-            <div class="portfolio-content">
-              <p>status hub</p>
-            </div>
-          </div>
-        </div>
-        <!-- col for portfolio close here -->
-        <div class="col-md-4">
-          <div onclick="openProject(event, 'project2')" class="portfolio-card projects">
-            <div class="portfolio-img">
-              <img src="img/class_eye.jpg" class="img-fluid" alt="suhel portfolio">
-            </div>
-            <div class="portfolio-content">
-              <p>class eye</p>
-            </div>
-          </div>
-        </div>
-        <!-- col for portfolio close here -->
-        <div class="col-md-4">
-          <div onclick="openProject(event, 'project3')" class="portfolio-card projects">
-            <div class="portfolio-img">
-              <img src="img/doctor_eye.jpg" class="img-fluid" alt="suhel portfolio">
-            </div>
-            <div class="portfolio-content">
-              <p>doctor eye</p>
-            </div>
-          </div>
-        </div>
-        <!-- col for portfolio close here -->
-        <div class="col-md-4">
-          <div onclick="openProject(event, 'project4')" class="portfolio-card projects">
-            <div class="portfolio-img">
-              <img src="img/ap_narmada.jpg" class="img-fluid" alt="suhel portfolio ap_narmada.jpg">
-            </div>
-            <div class="portfolio-content">
-              <p>a. p. narmada</p>
-            </div>
-          </div>
-        </div>
-        <!-- col for portfolio close here -->
-        <div class="col-md-4">
-          <div onclick="openProject(event, 'project5')" class="portfolio-card projects">
-            <div class="portfolio-img">
-              <img src="img/4sisters.jpg" class="img-fluid" alt="suhel portfolio">
-            </div>
-            <div class="portfolio-content">
-              <p>4 sisters</p>
-            </div>
-          </div>
-        </div>
-        <!-- col for portfolio close here -->
-        <div class="col-md-4">
-          <div onclick="openProject(event, 'project6')" class="portfolio-card projects">
-            <div class="portfolio-img">
-              <img src="img/royal_psd.jpg" class="img-fluid" alt="suhel portfolio">
-            </div>
-            <div class="portfolio-content">
-              <p>royal public school</p>
-            </div>
-          </div>
-        </div>
-        <!-- col for portfolio close here -->
-        <div class="col-md-4">
-          <div onclick="openProject(event, 'project7')" class="portfolio-card projects">
-            <div class="portfolio-img">
-              <img src="img/mld.jpg" class="img-fluid" alt="suhel portfolio">
-            </div>
-            <div class="portfolio-content">
-              <p>m.l.d. rising star</p>
-            </div>
-          </div>
-        </div>
-        <!-- col for portfolio close here -->
-        <!-- <div class="col-md-4">
-          <div  onclick="openProject(event, 'project8')" class="portfolio-card projects">
-            <div class="portfolio-img">
-              <img src="img/about-me.jpg" class="img-fluid" alt="suhel portfolio">
-            </div>
-            <div class="portfolio-content">
-              <p>Lorem ipsum.</p>
-            </div>
-          </div>
-        </div> -->
-        <!--user future uss -->
-        <!-- col for portfolio close here -->
-        <!-- <div class="col-md-4">
-          <div  onclick="openProject(event, 'project9')" class="portfolio-card projects">
-            <div class="portfolio-img">
-              <img src="img/about-me.jpg" class="img-fluid" alt="suhel portfolio">
-            </div>
-            <div class="portfolio-content">
-              <p>Lorem ipsum.</p>
-            </div>
-          </div>
-        </div> -->
-        <!--user future uss -->
-        <!-- col for portfolio close here -->
+      <!-- porject card container close here -->
+
+      <div id="projectDetails" class="project-details">
+        <!-- single project details here via javascipt -->
       </div>
-    </div>
-    <!-- porject card container close here -->
+    </section>
+    <!-- portfolio page close here -->
 
-    <div id="overlay" class=""></div>
-    <div id="project" class="project-details">
-
-      <div id="project1" class="container project-none single-project">
-        <div class="single-details">
-          <div class="project-img">
-            <img src="img/status_hub.jpg" class="img-fluid" alt="project 1">
-          </div>
-          <div class="project-content">
-            <div class="project-title">
-              <h4>status hub</h4>
-              <a class="btn btn-home-border waves-effect waves-light close-btn">
-                <span><i class="fa fa-times"></i> close</span>
+    <section id="contact" class="page contact">
+      <div class="container">
+        <div class="headings">
+          <h4 class="main-heading">contact <span>me</span></h4>
+          <p>i’m always open to discussing product design work.</p>
+        </div>
+      </div>
+      <!-- headig close hree -->
+      <div class="container-fluid px-0 map-details">
+        <div class="embed-responsive embed-responsive-16by9 contact-map">
+          <iframe
+            class="embed-responsive-item"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d733.1390930792929!2d82.16673019730071!3d25.420696823331973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398554e37201cba7%3A0x8b90e3944d0de271!2sBanpurwa%2C%20Uttar%20Pradesh%20221503!5e1!3m2!1sen!2sin!4v1602653851587!5m2!1sen!2sin"
+          ></iframe>
+        </div>
+        <div class="contact-card">
+          <h3>contact address</h3>
+          <div class="contact-details">
+            <div class="contact-single">
+              <i class="fa fa-map-marker"></i>
+              <span>damghara utraon handia allahabad</span>
+            </div>
+            <!-- sinle contact close here -->
+            <div class="contact-single">
+              <i class="fa fa-phone"></i>
+              <span><a href="tel:7237824738">7237824738</a></span>
+            </div>
+            <!-- sinle contact close here -->
+            <div class="contact-single">
+              <i class="fa fa-envelope"></i>
+              <span
+                ><a href="mailto:mohdsuhel920@gmail.com"
+                  >mohdsuhel920@gmail.com</a
+                ></span
+              >
+            </div>
+            <!-- sinle contact close here -->
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/mohd.suhel.79677"
+                target="_blank"
+              >
+                <i class="fa fa-facebook"></i>
               </a>
-            </div>
-            <!-- project title close here -->
-            <div class="portfolio-flex">
-              <ul class="project-name">
-                <li><i class="fa fa-file-text-o"></i> project : <span>template</span></li>
-                <li><i class="fa fa-user-o"></i> Client : <span>status hub</span></li>
-                <li><i class="fa fa-hourglass-o"></i> Duration : <span>10 Days</span></li>
-                <li><i class="fa fa-code"></i> Technologies : <span>html, css, javascript</span></li>
-                <li><i class="fa fa-money"></i> Budget : <span>500 usd</span></li>
-              </ul>
-              <a href="https://imsuhel.github.io/status_hub/" target="_blank" class="btn btn-home-color m-0">
-                <span><i class="fa fa-external-link"></i> priview</span>
+              <a href="https://www.instagram.com/native_suhel/" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com/MohdSuh51780026" target="_blank">
+                <i class="fa fa-twitter"></i>
               </a>
             </div>
           </div>
         </div>
       </div>
-      <!-- single project clsoe here -->
+      <!-- map close here -->
+    </section>
+    <!-- contact page close here -->
 
-      <div id="project2" class="container project-none single-project">
-        <div class="single-details">
-          <div class="project-img">
-            <img src="img/class_eye.jpg" class="img-fluid" alt="project 1">
-          </div>
-          <div class="project-content">
-            <div class="project-title">
-              <h4>class eye</h4>
-              <a class="btn btn-home-border waves-effect waves-light close-btn">
-                <span><i class="fa fa-times"></i> close</span>
-              </a>
-            </div>
-            <!-- project title close here -->
-            <div class="portfolio-flex">
-              <ul class="project-name">
-                <li><i class="fa fa-file-text-o"></i> project : <span>template</span></li>
-                <li><i class="fa fa-user-o"></i> Client : <span>class eye</span></li>
-                <li><i class="fa fa-hourglass-o"></i> Duration : <span>3 days</span></li>
-                <li><i class="fa fa-code"></i> Technologies : <span>html, css, bootstrap, javascript</span></li>
-                <li><i class="fa fa-money"></i> Budget : <span>180 usd</span></li>
-              </ul>
-              <a href="https://imsuhel.github.io/class_eye/" target="_blank" class="btn btn-home-color m-0">
-                <span><i class="fa fa-external-link"></i> priview</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- single project clsoe here -->
-
-      <div id="project3" class="container project-none single-project">
-        <div class="single-details">
-          <div class="project-img">
-            <img src="img/doctor_eye.jpg" class="img-fluid" alt="project 1">
-          </div>
-          <div class="project-content">
-            <div class="project-title">
-              <h4>doctor eye</h4>
-              <a class="btn btn-home-border waves-effect waves-light close-btn">
-                <span><i class="fa fa-times"></i> close</span>
-              </a>
-            </div>
-            <!-- project title close here -->
-            <div class="portfolio-flex">
-              <ul class="project-name">
-                <li><i class="fa fa-file-text-o"></i> project : <span>template</span></li>
-                <li><i class="fa fa-user-o"></i> Client : <span>doctor eye</span></li>
-                <li><i class="fa fa-hourglass-o"></i> Duration : <span>3 days</span></li>
-                <li>
-                  <i class="fa fa-code"></i> Technologies :
-                  <span>html, css, bootstrap, javascript</span>
-                </li>
-                <li><i class="fa fa-money"></i> Budget : <span>180 usd</span></li>
-              </ul>
-              <a href="https://imsuhel.github.io/doctor_eye/" target="_blank" class="btn btn-home-color m-0">
-                <span><i class="fa fa-external-link"></i> priview</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- single project clsoe here -->
-
-      <div id="project4" class="container project-none single-project">
-        <div class="single-details">
-          <div class="project-img">
-            <img src="img/ap_narmada.jpg" class="img-fluid" alt="project 1">
-          </div>
-          <div class="project-content">
-            <div class="project-title">
-              <h4>a. p. narmada</h4>
-              <a class="btn btn-home-border waves-effect waves-light close-btn">
-                <span><i class="fa fa-times"></i> close</span>
-              </a>
-            </div>
-            <!-- project title close here -->
-            <div class="portfolio-flex">
-              <ul class="project-name">
-                <li><i class="fa fa-file-text-o"></i> project : <span>template</span></li>
-                <li><i class="fa fa-user-o"></i> Client : <span>a. p. narmada</span></li>
-                <li><i class="fa fa-hourglass-o"></i> Duration : <span>10 days</span></li>
-                <li><i class="fa fa-code"></i> Technologies : <span>html, css, bootstrap, javascript</span></li>
-                <li><i class="fa fa-money"></i> Budget : <span>unknown</span></li>
-              </ul>
-              <a href="http://apnschool.in/" target="_blank" class="btn btn-home-color m-0">
-                <span><i class="fa fa-external-link"></i> priview</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- single project clsoe here -->
-
-      <div id="project5" class="container project-none single-project">
-        <div class="single-details">
-          <div class="project-img">
-            <img src="img/4sisters.jpg" class="img-fluid" alt="project 1">
-          </div>
-          <div class="project-content">
-            <div class="project-title">
-              <h4>4 sisters public schoool</h4>
-              <a class="btn btn-home-border waves-effect waves-light close-btn">
-                <span><i class="fa fa-times"></i> close</span>
-              </a>
-            </div>
-            <!-- project title close here -->
-            <div class="portfolio-flex">
-              <ul class="project-name">
-                <li><i class="fa fa-file-text-o"></i> project : <span>template</span></li>
-                <li><i class="fa fa-user-o"></i> Client : <span>4 sisters</span></li>
-                <li><i class="fa fa-hourglass-o"></i> Duration : <span>13 days</span></li>
-                <li><i class="fa fa-code"></i> Technologies : <span>html, css bootstrap javascript</span></li>
-                <li><i class="fa fa-money"></i> Budget : <span>unknown</span></li>
-              </ul>
-              <a href="http://4sisters.in/" target="_blank" class="btn btn-home-color m-0">
-                <span><i class="fa fa-external-link"></i> priview</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- single project clsoe here -->
-
-      <div id="project6" class="container project-none single-project">
-        <div class="single-details">
-          <div class="project-img">
-            <img src="img/royal_psd.jpg" class="img-fluid" alt="royal_psd.jpg">
-          </div>
-          <div class="project-content">
-            <div class="project-title">
-              <h4>royal public school</h4>
-              <a class="btn btn-home-border waves-effect waves-light close-btn">
-                <span><i class="fa fa-times"></i> close</span>
-              </a>
-            </div>
-            <!-- project title close here -->
-            <div class="portfolio-flex">
-              <ul class="project-name">
-                <li><i class="fa fa-file-text-o"></i> project : <span>template</span></li>
-                <li><i class="fa fa-user-o"></i> Client : <span>royal public school</span></li>
-                <li><i class="fa fa-hourglass-o"></i> Duration : <span>5 days</span></li>
-                <li><i class="fa fa-code"></i> Technologies : <span>html, css, bootstrap javascript</span></li>
-                <li><i class="fa fa-money"></i> Budget : <span>unknown</span></li>
-              </ul>
-              <a href="http://rps.ac.in/rps/" target="_blank" class="btn btn-home-color m-0">
-                <span><i class="fa fa-external-link"></i> priview</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- single project clsoe here -->
-
-      <div id="project7" class="container project-none single-project">
-        <div class="single-details">
-          <div class="project-img">
-            <img src="img/mld.jpg" class="img-fluid" alt="mld.jpg">
-          </div>
-          <div class="project-content">
-            <div class="project-title">
-              <h4>m.l.d. rising star</h4>
-              <a class="btn btn-home-border waves-effect waves-light close-btn">
-                <span><i class="fa fa-times"></i> close</span>
-              </a>
-            </div>
-            <!-- project title close here -->
-            <div class="portfolio-flex">
-              <ul class="project-name">
-                <li><i class="fa fa-file-text-o"></i> project : <span>template</span></li>
-                <li><i class="fa fa-user-o"></i> Client : <span>m.l.d</span></li>
-                <li><i class="fa fa-hourglass-o"></i> Duration : <span>6 days</span></li>
-                <li><i class="fa fa-code"></i> Technologies : <span>html, css, bootstrap</span></li>
-                <li><i class="fa fa-money"></i> Budget : <span>unknown</span></li>
-              </ul>
-              <a href="http://mldkesli.org/" target="_blank" class="btn btn-home-color m-0">
-                <span><i class="fa fa-external-link"></i> priview</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- single project clsoe here -->
-
-
-    </div>
-  </section>
-  <!-- portfolio page close here -->
-
-  <section id="contact" class="page contact">
-    <div class="container">
-      <div class="headings">
-        <h4 class="main-heading">contact <span>me</span></h4>
-        <p>i’m always open to discussing product design work.</p>
-      </div>
-    </div>
-    <!-- headig close hree -->
-    <div class="container-fluid px-0 map-details">
-      <div class="embed-responsive embed-responsive-16by9 contact-map">
-        <iframe class="embed-responsive-item"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d733.1390930792929!2d82.16673019730071!3d25.420696823331973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398554e37201cba7%3A0x8b90e3944d0de271!2sBanpurwa%2C%20Uttar%20Pradesh%20221503!5e1!3m2!1sen!2sin!4v1602653851587!5m2!1sen!2sin"></iframe>
-      </div>
-      <div class="contact-card">
-        <h3>contact address</h3>
-        <div class="contact-details">
-          <div class="contact-single">
-            <i class="fa fa-map-marker"></i>
-            <span>damghara utraon handia allahabad</span>
-          </div>
-          <!-- sinle contact close here -->
-          <div class="contact-single">
-            <i class="fa fa-phone"></i>
-            <span><a href="tel:7237824738">7237824738</a></span>
-          </div>
-          <!-- sinle contact close here -->
-          <div class="contact-single">
-            <i class="fa fa-envelope"></i>
-            <span><a href="mailto:mohdsuhel920@gmail.com">mohdsuhel920@gmail.com</a></span>
-          </div>
-          <!-- sinle contact close here -->
-          <div class="social-icons">
-            <a href="https://www.facebook.com/mohd.suhel.79677" target="_blank"> <i class="fa fa-facebook"></i> </a>
-            <a href="https://www.instagram.com/native_suhel/" target="_blank"> <i class="fa fa-instagram"></i> </a>
-            <a href="https://twitter.com/MohdSuh51780026" target="_blank"> <i class="fa fa-twitter"></i> </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- map close here -->
-  </section>
-  <!-- contact page close here -->
-
-  <!-- <section id="blog" class="page blog">
+    <!-- <section id="blog" class="page blog">
     <div class="container">
       <div class="headings">
         <h4 class="main-heading">latest <span>posts</span></h4>
@@ -634,16 +383,10 @@
     </div>
   </section> -->
 
-
-
-
-
-
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <script type="text/javascript" src="js/app.js"></script>
-</body>
-
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
 </html>
