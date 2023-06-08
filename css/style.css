@@ -391,13 +391,13 @@ img {
 
 .about-row {
   position: relative;
-  border-bottom: 1px solid #353535;
   padding-bottom: 70px;
 }
 
 .skill {
   position: relative;
   padding: 65px 15px;
+  border-bottom: 1px solid #353535;
 }
 
 .skill-card {
@@ -405,15 +405,12 @@ img {
   margin: 40px 0;
   display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: flex-start;
   color: #eee;
 }
 .skill-card .skill-icon {
   width: 60px;
   height: 60px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
 }
 .skill-card .skill-details {
   position: relative;
@@ -423,7 +420,7 @@ img {
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 500;
-  color: #eee;
+  color: rgb(255, 198, 37);
 }
 .skill-card .skill-tools {
   position: relative;
@@ -435,10 +432,11 @@ img {
   padding: 7px 12px;
   border-radius: 40px;
   text-align: center;
-  margin: 0 12px 0 0;
+  margin: 0 10px 10px 0;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 1px;
+  display: inline-block;
 }
 
 /* skill section css close ehre */
@@ -475,7 +473,7 @@ img {
   height: 220px;
   top: 0;
   left: 0;
-  background: #ffc625;
+  background: #000000e6;
   position: absolute;
   clip-path: circle(10% at 0% 100%);
   display: flex;
@@ -491,7 +489,7 @@ img {
   content: "i";
   font-size: 16px;
   font-weight: bold;
-  color: #222222;
+  color: #fff;
   bottom: 0;
   left: 10px;
   text-align: left;
@@ -501,11 +499,11 @@ img {
 }
 
 .portfolio-card .portfolio-content p {
-  font-size: 22px;
-  font-weight: 700;
-  color: #555555;
+  font-size: 18px;
+  font-weight: 800;
+  color: #ffffff;
   margin-bottom: 0;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .portfolio-card:hover .portfolio-content {

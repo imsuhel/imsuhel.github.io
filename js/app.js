@@ -10,7 +10,7 @@ fetch("js/projects.json")
   });
 
 window.onload = () => {
-  console.log(projects, "projets after load");
+  console.table(projects);
   projects.map((item, index) => {
     projectsWrapper.innerHTML += `
     <div class="col-md-4">
