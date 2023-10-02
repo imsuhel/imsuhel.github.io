@@ -1,5 +1,47 @@
 [
   {
+    "id": "11",
+    "name": "Sugandhim User",
+    "thumbnail": "sugandhim.png",
+    "tech": ["React Native", "javascript"],
+    "link": "https://play.google.com/store/apps/details?id=com.sugandhimuser"
+  },
+  {
+    "id": "10",
+    "name": "Basket Yours",
+    "thumbnail": "basketYours.png",
+    "tech": ["React Native", "javascript"],
+    "link": "https://play.google.com/store/apps/details?id=com.basketyours"
+  },
+  {
+    "id": "9",
+    "name": "JD Dreams",
+    "thumbnail": "jdDreams.png",
+    "tech": ["React Native"],
+    "link": "https://play.google.com/store/apps/details?id=com.jddreams"
+  },
+  {
+    "id": "16",
+    "name": "MyZakah",
+    "thumbnail": "hmtWatches.png",
+    "tech": ["React Native", "React Navigation", "Context Api"],
+    "link": "https://play.google.com/store/apps/details?id=com.myzakah"
+  },
+  {
+    "id": "16",
+    "name": "Basket Yours Driver",
+    "thumbnail": "hmtWatches.png",
+    "tech": ["React Native", "React Navigation", "Context Api"],
+    "link": "https://play.google.com/store/apps/details?id=com.basketyoursdelivery"
+  },
+  {
+    "id": "16",
+    "name": "Sugandhim Astrologer",
+    "thumbnail": "hmtWatches.png",
+    "tech": ["React Native", "React Navigation", "Context Api"],
+    "link": "https://play.google.com/store/apps/details?id=com.sugandhimastrologer"
+  },
+  {
     "id": "1",
     "name": "status hub",
     "thumbnail": "status_hub.jpg",
@@ -54,27 +96,6 @@
     "thumbnail": "iiitUna.png",
     "tech": ["HTML", "CSS", "BOOTSTRAP", "JAVASCRIPT"],
     "link": "http://iiitu.ac.in/"
-  },
-  {
-    "id": "9",
-    "name": "JD Dreams",
-    "thumbnail": "jdDreams.png",
-    "tech": ["React Native"],
-    "link": "https://play.google.com/store/apps/details?id=com.jddreams"
-  },
-  {
-    "id": "10",
-    "name": "Basket Yours",
-    "thumbnail": "basketYours.png",
-    "tech": ["React Native", "javascript"],
-    "link": "https://play.google.com/store/apps/details?id=com.basketyours"
-  },
-  {
-    "id": "11",
-    "name": "Sugandhim an Astrology App",
-    "thumbnail": "sugandhim.png",
-    "tech": ["React Native", "javascript"],
-    "link": "https://play.google.com/store/apps/details?id=com.sugandhimuser"
   },
   {
     "id": "12",
