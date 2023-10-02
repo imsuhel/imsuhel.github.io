@@ -23,21 +23,21 @@
   {
     "id": "16",
     "name": "MyZakah",
-    "thumbnail": "hmtWatches.png",
+    "thumbnail": "myzakah.png",
     "tech": ["React Native", "React Navigation", "Context Api"],
     "link": "https://play.google.com/store/apps/details?id=com.myzakah"
   },
   {
     "id": "16",
     "name": "Basket Yours Driver",
-    "thumbnail": "hmtWatches.png",
+    "thumbnail": "basketDriver.png",
     "tech": ["React Native", "React Navigation", "Context Api"],
     "link": "https://play.google.com/store/apps/details?id=com.basketyoursdelivery"
   },
   {
     "id": "16",
     "name": "Sugandhim Astrologer",
-    "thumbnail": "hmtWatches.png",
+    "thumbnail": "sugandhimAstro.png",
     "tech": ["React Native", "React Navigation", "Context Api"],
     "link": "https://play.google.com/store/apps/details?id=com.sugandhimastrologer"
   },
