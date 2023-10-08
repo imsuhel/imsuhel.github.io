@@ -509,7 +509,7 @@ img {
   font-weight: 800;
   color: #ffffff;
   margin-bottom: 0;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .portfolio-card:hover .portfolio-content {
@@ -782,4 +782,37 @@ img {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.bannerSelf {
+  position: relative;
+  width: 78%;
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bannerSelf::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/banner_shape.png");
+  background-size: contain;
+  animation: bannerAnimi1 linear 1s infinite alternate;
+  -webkit-animation: bannerAnimi1 linear 1s infinite alternate;
+  background-repeat: no-repeat;
+}
+
+@keyframes bannerAnimi1 {
+  from {
+    top: 5px;
+  }
+
+  to {
+    top: 0;
+  }
 }

@@ -1,5 +1,8 @@
 /* phone only */
 @media (max-width: 599px) {
+  .mobileNone {
+    display: none !important;
+  }
   .navigation {
     top: 10px;
     left: 10px;
@@ -117,12 +120,6 @@
   }
 }
 
-/* tablet potrait up */
-@media (max-width: 600px) {
-}
-
-@media (max-width: 992px) {
-}
 @media (max-width: 768px) {
   .project-details {
     width: 100%;
@@ -134,19 +131,4 @@
   .skill-card .skill-tools span {
     margin: 0px 3px 0 0;
   }
-}
-
-/* tablet lanscape up */
-@media (min-width: 900px) {
-}
-
-@media (min-width: 1024px) {
-}
-
-/* desktop up */
-@media (min-width: 1200px) {
-}
-
-/* bi desktop up */
-@media (min-width: 1800px) {
 }
