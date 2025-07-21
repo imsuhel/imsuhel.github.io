@@ -3,7 +3,7 @@
     "name": "Thai Love: Thailand Dating App",
     "description": "Welcome to Thai Love — your go-to app for discovering authentic places, hidden gems, and inspiring travel content across Thailand. Whether you're visiting for the first time or living here long-term, Thai Love helps you explore the country through curated local blogs and connect with a vibrant community of fellow travelers and explorers.",
     "technologies": ["React Native", "Context API", "Socket"],
-    "image": "thai-love.png",
+    "image": "thai-love.jpg",
     "androidUrl": "",
     "iosUrl": "https://apps.apple.com/us/app/thai-love-thailand-dating-app/id6739363013"
   },
