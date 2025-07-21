@@ -3,345 +3,316 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Mohd Suhel : React Native Developer & UI/UX Designer</title>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/mdb.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <!-- Template Google Fonts -->
+    <title>Mohd Suhel - JavaScript Developer</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <link type="text/css" rel="stylesheet" href="css/media.css" />
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+    rel="stylesheet" " />
+    <link rel="stylesheet" href="app.css" />
   </head>
-
-  <body id="body">
-    <header id="nav-bar" class="navigation">
-      <div class="nav-icon">
-        <span class="bars"></span>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg custom-navbar">
+      <div class="container">
+        <a class="navbar-brand text-primary-glow" href="#home">Mohd Suhel</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#websiteNavigation"
+          aria-controls="websiteNavigation"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="websiteNavigation">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <ul class="nav-menu">
-        <li class="nav-item first-item">
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="heroSection" id="home">
+      <div class="container text-center">
+        <h1>
+          <span class="highlight">JavaScript Developer</span> — Building with
+          React, React Native & Node.js
+        </h1>
+        <p>
+          I turn ideas into reality using clean code and modern frameworks.
+          Passionate about performance, design, and user experience.
+        </p>
+      </div>
+    </section>
+
+    <section class="aboutSection" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left: Image -->
+          <div class="col-md-5 mb-4 mb-md-0">
+            <div class="about-img-wrapper">
+              <img
+                src="assets/aboutPic.png"
+                alt="Mohd Suhel"
+                class="about-img"
+              />
+            </div>
+          </div>
+
+          <!-- Right: Bio -->
+          <div class="col-md-7">
+            <h2 class="about-heading">
+              Hi, I'm <span class="highlight">Mohd Suhel</span>
+            </h2>
+            <p class="about-text">
+              I'm a passionate <strong>JavaScript developer</strong> who loves
+              building modern, performant apps using <strong>ReactJS</strong>,
+              <strong>React Native</strong>, and sometimes
+              <strong>Node.js</strong>.
+            </p>
+            <p class="about-text">
+              With a strong focus on user experience, performance, and clean
+              architecture, I’ve created full-scale mobile and web apps used by
+              thousands.
+            </p>
+            <a
+              href="https://www.linkedin.com/in/mohd-suhel-50b320188"
+              target="_blank"
+              class="btn about-btn"
+              >🚀 Let's Connect</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projectSection" id="projects">
+      <div class="container">
+        <h2 class="section-title text-center mb-5">Projects</h2>
+        <div class="stack-container" id="projectCardsContainer">
+          <!-- sdfds -->
+        </div>
+      </div>
+    </section>
+
+    <section class="careerSection" id="experience">
+      <div class="container">
+        <h2 class="section-title text-center">Education & Experience</h2>
+        <div class="row">
+          <!-- Education Timeline -->
+          <div class="col-md-6">
+            <!-- <h4 class="sub-heading">Education</h4> -->
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h5>Bachelor of Computer Applications</h5>
+                  <span class="timeline-date">2022 – 2024</span>
+                  <p>Subharti University</p>
+                  <ul>
+                    <li>Graduated with Distinction</li>
+                    <li>Focused on web & mobile development</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h5>Higher Secondary (Science)</h5>
+                  <span class="timeline-date">2013 – 2014</span>
+                  <p>UP Board</p>
+                  <ul>
+                    <li>PCM with Computer Science</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Timeline -->
+          <div class="col-md-6 mt-5 mt-md-0">
+            <!-- <h4 class="sub-heading">Experience</h4> -->
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h5>React Native Developer @Indi IT Solutions</h5>
+                  <span class="timeline-date">Nov 2023 – Present</span>
+                  <p>Creating scalable mobile apps with React Native.</p>
+                  <ul>
+                    <li>Developed 5+ apps across different domains</li>
+                    <li>
+                      Worked with Redux Toolkit, Expo, and third-party APIs
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h5>React Native Developer @Maxtra Technologies</h5>
+                  <span class="timeline-date">May 2022 – Aug 2023</span>
+                  <p>
+                    Maintained and enhanced existing mobile apps using React
+                    Native.
+                  </p>
+                  <ul>
+                    <li>Integrated Firebase services and push notifications</li>
+                    <li>Focused on code reusability and app performance</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h5>Software Engineer – UI @Maxtra Technologies</h5>
+                  <span class="timeline-date">Feb 2021 – May 2022</span>
+                  <p>
+                    Built and optimized web dashboards and admin panels using
+                    React.
+                  </p>
+                  <ul>
+                    <li>
+                      Implemented SEO, accessibility, and responsive design best
+                      practices
+                    </li>
+                    <li>
+                      Used Tailwind CSS and Firebase for frontend development
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h5>Website Designer @7 Eye IT Solutions</h5>
+                  <span class="timeline-date">Date Not Known</span>
+                  <p>Designed custom websites with user-friendly interfaces.</p>
+                  <ul>
+                    <li>Focused on layout, color scheme, and responsiveness</li>
+                    <li>
+                      Worked closely with clients to deliver on-brand designs
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contactSection" id="contact">
+      <div class="container text-center">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="contact-subtext">
+          Whether you have an idea, a project, or just want to say hello,
+          <br />I'm always open to meaningful conversations.
+        </p>
+
+        <a href="mailto:mohdsuhel.dev@gmail.com" class="contact-email"
+          >📧 mohdsuhel.dev@gmail.com</a
+        >
+
+        <div class="contact-links mt-4">
           <a
-            onclick="openPage(event, 'home')"
-            id="activedefault"
-            class="nav-link active"
+            href="https://github.com/imsuhel"
+            target="_blank"
+            class="contact-icon"
           >
-            <i class="fa fa-home"></i> <span>home</span></a
+            <i class="bi bi-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mohd-suhel-50b320188/"
+            target="_blank"
+            class="contact-icon"
           >
-        </li>
-        <li class="nav-item">
-          <a onclick="openPage(event, 'about')" class="nav-link">
-            <i class="fa fa-user"></i> <span>about</span></a
-          >
-        </li>
-        <li class="nav-item">
-          <a onclick="openPage(event, 'portfolio')" class="nav-link">
-            <i class="fa fa-suitcase"></i> <span>portfolio</span></a
-          >
-        </li>
-        <li class="nav-item last-item">
-          <a onclick="openPage(event, 'contact')" class="nav-link">
-            <i class="fa fa-comments"></i> <span>contact</span></a
-          >
-        </li>
-        <!-- <li class="nav-item last-item">
-        <a onclick="openPage(event, 'blog')" class="nav-link">
-          <i class="fa fa-rss"></i> <span>blog</span></a>
-      </li> -->
-      </ul>
-    </header>
-
-    <section id="home" class="page home">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 mobileNone my-auto">
-            <div class="bannerSelf">
-              <img src="img/aboutPicture.png" alt="" class="img-fluid" />
-            </div>
-          </div>
-          <div class="col-md-6 home-content">
-            <div class="contents">
-              <div class="captions">
-                <h5>HI THERE !</h5>
-                <h4>i'm <span id="write">suhel</span></h4>
-                <p>
-                  I'm a React Native Developer and UI/UX Designer based in
-                  Allahabad, India. I strive to build immersive and beautiful
-                  mobile applications through carefully crafted code and
-                  user-centric design.
-                </p>
-                <div class="home-btn-group">
-                  <a
-                    onclick="openPage(event, 'about')"
-                    class="btn btn-home-color"
-                  >
-                    <span><i class="fa fa-user"></i> Skills / experience</span>
-                  </a>
-                  <a
-                    onclick="openPage(event, 'portfolio')"
-                    class="btn btn-home-border"
-                  >
-                    <span><i class="fa fa-suitcase"></i> portfolio</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+            <i class="bi bi-linkedin"></i>
+          </a>
         </div>
-      </div>
-      <!-- container close here -->
-    </section>
-    <!-- home page close here -->
-
-    <section id="about" class="page about">
-      <!-- skill area -->
-      <div class="container skill">
-        <div class="headings">
-          <h4 class="main-heading">My skills <span>& experience</span></h4>
-          <p>I DESIGN AND CODE BEAUTIFUL THINGS, AND I LOVE WHAT I DO.</p>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="skill-card">
-              <div class="skill-icon">
-                <img
-                  src="img/code.png"
-                  class="img-fluid"
-                  alt="web development"
-                />
-              </div>
-              <!-- skill-icon close ehre -->
-              <div class="skill-details">
-                <h3>Tools And Technologies</h3>
-                <div class="skill-tools">
-                  <span>html</span>
-                  <span>css</span>
-                  <span>javascript</span>
-                  <span>bootstrap</span>
-                  <span>react native</span>
-                  <span>axios</span>
-                  <span>redux</span>
-                  <span>photoshp</span>
-                  <span>figma</span>
-                  <span>adobe xd</span>
-                  <span>illustrator</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- col-md-6 close here -->
-        </div>
-      </div>
-      <!-- skill area close reh -->
-      <div class="container about-row">
-        <div class="headings">
-          <h4 class="main-heading">about <span>me</span></h4>
-          <p>i design and code beautiful things, and i love what i do.</p>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="about-img">
-              <img src="img/about.jpg" alt="suhel" class="img-fluid" />
-            </div>
-          </div>
-          <!-- col close here -->
-
-          <div class="col-md-6">
-            <div class="personal-details">
-              <ul>
-                <li><span>name :</span> mohd suhel</li>
-                <li><span>birthdate :</span> 22 may 1999</li>
-                <li><span>nationality :</span> indian</li>
-                <li><span>Started at :</span> 2020</li>
-              </ul>
-
-              <ul>
-                <li><span>address :</span> handia, prayagraj</li>
-                <li><span>langages :</span> hindi, english</li>
-                <li>
-                  <span>phone :</span>
-                  <a href="tel:+91 7237 824 738">+91 723 782 4738</a>
-                </li>
-                <li>
-                  <span>email :</span>
-                  <a href="mailto:itssuhelcontact@gmail.com"
-                    >itssuhelcontact@gmail.com</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <a href="img/suhelResume.pdf" download class="btn btn-home-color">
-              <span><i class="fa fa-download"></i> download resume</span>
-            </a>
-          </div>
-        </div>
-        <!-- col close here -->
       </div>
     </section>
-    <!-- about page close here -->
 
-    <section id="portfolio" class="page portfolio">
-      <div class="container">
-        <div class="headings">
-          <h4 class="main-heading">my <span>portfolio</span></h4>
-          <p>a few recent design and coding projects.</p>
-        </div>
-        <div class="row" id="projectsWrapper">
-          <!-- projects card here in col md 4 size via javascript -->
-        </div>
-      </div>
-      <!-- porject card container close here -->
-
-      <div id="projectDetails" class="project-details">
-        <!-- single project details here via javascipt -->
-      </div>
-    </section>
-    <!-- portfolio page close here -->
-
-    <section id="contact" class="page contact">
-      <div class="container">
-        <div class="headings">
-          <h4 class="main-heading">contact <span>me</span></h4>
-          <p>i’m always open to discuss for work.</p>
-        </div>
-      </div>
-      <!-- headig close hree -->
-      <div class="container-fluid px-0 map-details">
-        <div class="embed-responsive embed-responsive-16by9 contact-map">
-          <iframe
-            class="embed-responsive-item"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d733.1390930792929!2d82.16673019730071!3d25.420696823331973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398554e37201cba7%3A0x8b90e3944d0de271!2sBanpurwa%2C%20Uttar%20Pradesh%20221503!5e1!3m2!1sen!2sin!4v1602653851587!5m2!1sen!2sin"
-          ></iframe>
-        </div>
-        <div class="contact-card">
-          <h3>contact address</h3>
-          <div class="contact-details">
-            <div class="contact-single">
-              <i class="fa fa-map-marker"></i>
-              <span>damghara utraon handia allahabad</span>
-            </div>
-            <!-- sinle contact close here -->
-            <div class="contact-single">
-              <i class="fa fa-phone"></i>
-              <span><a href="tel:7237824738">7237824738</a></span>
-            </div>
-            <!-- sinle contact close here -->
-            <div class="contact-single">
-              <i class="fa fa-envelope"></i>
-              <span
-                ><a href="mailto:mohdsuhel920@gmail.com"
-                  >mohdsuhel920@gmail.com</a
-                ></span
+    <!-- Modal Drawer -->
+    <div
+      class="modal fade"
+      id="projectModal"
+      tabindex="-1"
+      aria-labelledby="projectModalLabel"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-dialog-slide modal-dialog-end modal-fullscreen-sm-down"
+      >
+        <div class="modal-content custom-modal-content">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="projectModalLabel">
+              Quizzy – Quiz App
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img
+              src="https://picsum.photos/id/237/420/800"
+              alt="Quizzy App Screenshot"
+              class="img-fluid rounded mb-3"
+            />
+            <p>
+              <strong>Description:</strong> Quizzy is a React Native quiz app
+              with category filters, scoring logic, and smooth animations.
+            </p>
+            <p><strong>Tech Stack:</strong> React Native, Redux, Expo</p>
+            <p>
+              <strong>Why This Stack?</strong><br />
+              React Native allows fast, cross-platform development. Redux was
+              used for centralized state management, and Expo simplified
+              deployment.
+            </p>
+            <div class="store-links">
+              <a href="#" class="btn store-btn me-2" target="_blank"
+                >📱 Play Store</a
               >
-            </div>
-            <!-- sinle contact close here -->
-            <div class="social-icons">
-              <a
-                href="https://www.facebook.com/mohd.suhel.79677"
-                target="_blank"
-              >
-                <i class="fa fa-facebook"></i>
-              </a>
-              <a href="https://www.instagram.com/native_suhel/" target="_blank">
-                <i class="fa fa-instagram"></i>
-              </a>
-              <a href="https://twitter.com/MohdSuh51780026" target="_blank">
-                <i class="fa fa-twitter"></i>
-              </a>
+              <a href="#" class="btn store-btn" target="_blank">🍏 App Store</a>
             </div>
           </div>
         </div>
-      </div>
-      <!-- map close here -->
-    </section>
-    <!-- contact page close here -->
-
-    <!-- <section id="blog" class="page blog">
-    <div class="container">
-      <div class="headings">
-        <h4 class="main-heading">latest <span>posts</span></h4>
-        <p>tips, insights, and best practices about web design and developpment.</p>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="blog-card">
-            <div class="blog-img">
-              <img src="img/about-me.jpg" class="img-fluid" alt="blog_img">
-            </div>
-            <div class="blog-headings">
-              <h4>create a wordpress theme from scratch</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate accusamus illum eius ducimus autem eveniet ullam odio repellat itaque amet...</p>
-            </div>
-            <a href="" class="btn btn-home-color">
-              <span><i class="fa fa-book"></i> read more</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="blog-card">
-            <div class="blog-img">
-              <img src="img/about-me.jpg" class="img-fluid" alt="blog_img">
-            </div>
-            <div class="blog-headings">
-              <h4>effective marketing strategy tips</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate accusamus illum eius ducimus autem eveniet ullam odio repellat itaque amet...</p>
-            </div>
-            <a href="" class="btn btn-home-color">
-              <span><i class="fa fa-book"></i> read more</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="blog-card">
-            <div class="blog-img">
-              <img src="img/about-me.jpg" class="img-fluid" alt="blog_img">
-            </div>
-            <div class="blog-headings">
-              <h4>free psd and sketch ressouces</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate accusamus illum eius ducimus autem eveniet ullam odio repellat itaque amet...</p>
-            </div>
-            <a href="" class="btn btn-home-color">
-              <span><i class="fa fa-book"></i> read more</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="blog-card">
-            <div class="blog-img">
-              <img src="img/about-me.jpg" class="img-fluid" alt="blog_img">
-            </div>
-            <div class="blog-headings">
-              <h4>how to become a successful developer</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate accusamus illum eius ducimus autem eveniet ullam odio repellat itaque amet...</p>
-            </div>
-            <a href="" class="btn btn-home-color">
-              <span><i class="fa fa-book"></i> read more</span>
-            </a>
-          </div>
-        </div>
-
       </div>
     </div>
-  </section> -->
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js" />
   </body>
 </html>
