@@ -1,0 +1,91 @@
+const projects = [
+  {
+    name: "Thai Love: Thailand Dating App",
+    description:
+      "Welcome to Thai Love — your go-to app for discovering authentic places, hidden gems, and inspiring travel content across Thailand. Whether you're visiting for the first time or living here long-term, Thai Love helps you explore the country through curated local blogs and connect with a vibrant community of fellow travelers and explorers.",
+    technologies: ["React Native", "Context API", "Socket"],
+    image: "thai-love.jpg",
+    androidUrl: "",
+    iosUrl:
+      "https://apps.apple.com/us/app/thai-love-thailand-dating-app/id6739363013",
+  },
+  {
+    name: "Sugandhim Astrologer",
+    description:
+      "Sugandhim is a top-rated astrological app offering accurate Vedic and Hindu astrology predictions.",
+    technologies: ["React Native", "Context API"],
+    image: "sugandhim.png",
+    androidUrl:
+      "https://play.google.com/store/apps/details?id=com.sugandhimastrologer",
+    iosUrl: "",
+  },
+  {
+    name: "eCare Therapy",
+    description:
+      "A teletherapy app that lets users choose certified therapists based on personal preferences without a subscription.",
+    technologies: ["React Native", "Redux", "Redux Toolkit", "AsyncStorage"],
+    image: "ecare-therapy.png",
+    androidUrl:
+      "https://play.google.com/store/apps/details?id=com.ecaretherapy.app",
+    iosUrl: "",
+  },
+  {
+    name: "eCare For Therapists",
+    description:
+      "A teletherapy platform enabling therapists to manage their practice and reach a wider audience with ease.",
+    technologies: ["React Native", "Redux", "Redux Toolkit", "AsyncStorage"],
+    image: "ecare-therapists.png",
+    androidUrl:
+      "https://play.google.com/store/apps/details?id=com.ecaretherapist.app",
+    iosUrl: "",
+  },
+  {
+    name: "VendVet - Find Vending Events",
+    description:
+      "Discover and participate in vending events across the country as a vendor or enthusiast.",
+    technologies: ["React Native", "Context API"],
+    image: "vendvet.png",
+    androidUrl: "https://play.google.com/store/apps/details?id=com.vendvet",
+    iosUrl: "",
+  },
+  {
+    name: "The Fractional Coach",
+    description:
+      "Chat-based career coaching app offering flexible and personalized guidance without long-term commitments.",
+    technologies: ["React Native", "Redux", "Redux Toolkit", "WebSockets"],
+    image: "fractional-coach.png",
+    androidUrl:
+      "https://play.google.com/store/apps/details?id=co.thefractionalcoach.app",
+    iosUrl: "",
+  },
+  {
+    name: "Chummy - Find Real Friends",
+    description:
+      "Chummy uses personality matching to help users find genuine friendships based on shared interests.",
+    technologies: ["React Native", "Redux", "Redux Toolkit"],
+    image: "chummy.png",
+    androidUrl:
+      "https://play.google.com/store/apps/details?id=com.wolfpackfindfriends",
+    iosUrl: "",
+  },
+  {
+    name: "Adventure Dating",
+    description:
+      "Redefining dating by encouraging shared real-world adventures like hiking, skydiving, and more.",
+    technologies: ["React Native", "Context API"],
+    image: "adventure-dating.png",
+    androidUrl:
+      "https://play.google.com/store/apps/details?id=com.adventuredating",
+    iosUrl: "",
+  },
+  {
+    name: "Mottruck",
+    description:
+      "Mottruck simplifies logistics for individuals and businesses with easy shipment booking and tracking features.",
+    technologies: ["React Native", "Context API", "Maps API"],
+    image: "mottruck.png",
+    androidUrl:
+      "https://play.google.com/store/apps/details?id=com.mottruck.apps",
+    iosUrl: "",
+  },
+];

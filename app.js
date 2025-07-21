@@ -1,4 +1,5 @@
 // Wait for the DOM to load
+
 document.addEventListener("DOMContentLoaded", function () {
   const sections = document.querySelectorAll("section");
   const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
@@ -12,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
       const sectionHeight = section.offsetHeight;
 
       if (pageYOffset >= sectionTop - sectionHeight / 3) {
-        console.log(currentSection);
         currentSection = section.getAttribute("id");
       }
     });
@@ -30,18 +30,15 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", activateNavLink);
 });
 
-fetch("assets/projects.json")
-  .then((response) => response.json())
-  .then((projects) => {
-    const container = document.getElementById("projectCardsContainer");
+const container = document.getElementById("projectCardsContainer");
 
-    projects.forEach((project, index) => {
-      const card = document.createElement("div");
-      card.className = `stack-card card-${index + 1}`;
-      card.style.top = `${60 + index * 20}px`;
-      card.style.zIndex = `${index + 1}`;
+projects.forEach((project, index) => {
+  const card = document.createElement("div");
+  card.className = `stack-card card-${index + 1}`;
+  card.style.top = `${60 + index * 20}px`;
+  card.style.zIndex = `${index + 1}`;
 
-      card.innerHTML = `
+  card.innerHTML = `
       <div class="project-card-glass">
         <h5 class="project-title">${project.name}</h5>
         <p class="project-desc">${project.description}</p>
@@ -63,9 +60,5 @@ fetch("assets/projects.json")
       </div>
     `;
 
-      container.appendChild(card);
-    });
-  })
-  .catch((error) => {
-    console.error("Error loading project data:", error);
-  });
+  container.appendChild(card);
+});
