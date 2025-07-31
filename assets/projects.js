@@ -27,7 +27,7 @@ const projects = [
     image: "ecare-therapy.png",
     androidUrl:
       "https://play.google.com/store/apps/details?id=com.ecaretherapy.app",
-    iosUrl: "",
+    iosUrl: "https://apps.apple.com/us/app/ecare-therapy/id6477286804",
   },
   {
     name: "eCare For Therapists",
@@ -37,7 +37,7 @@ const projects = [
     image: "ecare-therapists.png",
     androidUrl:
       "https://play.google.com/store/apps/details?id=com.ecaretherapist.app",
-    iosUrl: "",
+    iosUrl: "https://apps.apple.com/us/app/ecare-for-therapists/id6477288287",
   },
   {
     name: "VendVet - Find Vending Events",
@@ -46,7 +46,8 @@ const projects = [
     technologies: ["React Native", "Context API"],
     image: "vendvet.png",
     androidUrl: "https://play.google.com/store/apps/details?id=com.vendvet",
-    iosUrl: "",
+    iosUrl:
+      "https://apps.apple.com/us/app/vendvet-find-vending-events/id6499424363",
   },
   {
     name: "The Fractional Coach",
@@ -56,7 +57,7 @@ const projects = [
     image: "fractional-coach.png",
     androidUrl:
       "https://play.google.com/store/apps/details?id=co.thefractionalcoach.app",
-    iosUrl: "",
+    iosUrl: "https://apps.apple.com/us/app/the-fractional-coach/id6504908974",
   },
   {
     name: "Chummy - Find Real Friends",
@@ -66,7 +67,8 @@ const projects = [
     image: "chummy.png",
     androidUrl:
       "https://play.google.com/store/apps/details?id=com.wolfpackfindfriends",
-    iosUrl: "",
+    iosUrl:
+      "https://apps.apple.com/us/app/chummy-find-real-friends/id6738577443",
   },
   {
     name: "Adventure Dating",
@@ -76,7 +78,7 @@ const projects = [
     image: "adventure-dating.png",
     androidUrl:
       "https://play.google.com/store/apps/details?id=com.adventuredating",
-    iosUrl: "",
+    iosUrl: "https://apps.apple.com/us/app/adventure-dating/id6745327203",
   },
   {
     name: "Mottruck",
@@ -86,6 +88,6 @@ const projects = [
     image: "mottruck.png",
     androidUrl:
       "https://play.google.com/store/apps/details?id=com.mottruck.apps",
-    iosUrl: "",
+    iosUrl: "https://apps.apple.com/us/app/mottruck/id6711344651",
   },
 ];
